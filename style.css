@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+    font-family: 'Crimson Text', serif;
+}
+body {
+    background: #081b29;
+    color: #ededed;
+}
+.header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 20px 10%;
+     background: transparent;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: ShowRight 1s ease forwards;
+    animation-delay: .4s;
+    z-index: auto;
+
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover ,
+.navbar a.active {
+    color: #00abf0;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    
+}
+.home-content {
+    max-width: 840px;
+}
+.home-content h1 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* .home-content h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: ShowRight 1s ease forwards;
+    animation-delay: .1s;
+} */
+
+.img_deg {
+    display: flex;
+    margin-right: -5rem;
+    float: right;
+    max-width: 100%;
+}
+
+/* KEYFRAMES ANIMATION */
+@keyframes ShowRight {
+    100%{
+        width: 0;
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 4rem;
+
+}
+
+.heading {
+   font-size: 40px;
+}
+
+.about-titel {
+   display: flex;
+   justify-content: center;
+   height: 30vh;
+   align-items: center;
+   width: 50px;
+   margin: 90px;
+   /* padding-top: 38px;
+   padding-bottom: 40px;
+   max-height: 1155px;
+   margin: auto; */
+   /* border: 1px solid palevioletred; */
+   /* padding: 40px; */
+   
+}
+.ilp_opl {
+    margin: 30px;
+    border: 1px solid #ededed;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 125px;
+    /* max-height: 1155px; */
+    /* margin: auto;  */
+}
+.ilp_lpo {
+    margin: 30px;
+    border: 1px solid #ededed;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 195px;
+
+    /* margin: auto; */
+}
+.ilp_pol {
+    margin: 30px;
+    border: 1px solid #ededed;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 110px;
+    /* max-height: 1155px; */
+    /* margin: auto; */
+}
+.about_yio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 4rem;
+    border: 1px solid #ededed;
+    padding: 50px;
+    padding-top: 90px;
+    margin: 300px ;
+    padding-bottom: 300px;
+    
+    /* font-size: 20px; */
+}
+.esl {
+    display: flex;
+    font-size: 40px;
+}
+.into {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.eil_ukl {
+    display: flex;
+    padding: 50px;
+    padding-top: 250px;
+    /* padding-top: -200px; */
+    margin: -250px;
+}
+.unk {
+    display: flex;
+    padding: 160px;
+    padding-top: 10px;
+    margin-left: 35px;
+    /* padding-left: 50px; */
+}
+.titel-ukj {
+    display: flex;;
+    margin: 5px;
+    padding-top: 2px;
+    padding: 15px;
+
+    right: 20px;
+
+}
+.vas {
+    font-size: 30px;
+}
+.usd-usa {
+    max-width: 840px;
+}
+
+.home-sci {
+    display: flex;
+    
+    gap: 20px;
+    justify-content: space-between;
+    position: absolute;
+    margin: 190px;
+    
+}
+.home-sci a {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font: size 20px;
+    color:#00abf0;
+    text-decoration: none;
+    z-index: -1;
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100%;
+    z-index: -1;
+   
+}
